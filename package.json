@@ -8,21 +8,13 @@
     "repository": "https://github.com/jmjuanes/uni",
     "bugs": "https://github.com/jmjuanes/uni/issues",
     "type": "module",
+    "workspaces": [
+        "packages/*"
+    ],
     "scripts": {
-        "test": "jest"
+        "test": "yarn workspaces run test"
     },
-    "devDependencies": {
-        "@babel/core": "^7.25.2",
-        "@babel/preset-env": "^7.25.4",
-        "babel-jest": "^29.7.0",
-        "jest": "^29.7.0",
-        "jest-environment-jsdom": "^29.7.0"
-    },
-    "babel": {
-        "presets": [
-            "@babel/preset-env"
-        ]
-    },
+    "devDependencies": {},
     "jest": {
         "clearMocks": true,
         "testEnvironment": "jsdom"

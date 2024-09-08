@@ -14,6 +14,9 @@
         "./theme": "./theme.js",
         "./theme.js": "./theme.js"
     },
+    "scripts": {
+        "test": "node test.js"
+    },
     "files": [
         "unicss.js",
         "theme.js",
