@@ -1,0 +1,26 @@
+{
+    "name": "unicss",
+    "version": "0.2.0",
+    "description": "The universal CSS-In-JS microlibrary",
+    "author": "Josemi Juanes <hello@josemi.xyz>",
+    "license": "MIT",
+    "repository": "https://github.com/jmjuanes/uni",
+    "bugs": "https://github.com/jmjuanes/uni/issues",
+    "type": "module",
+    "main": "unicss.js",
+    "exports": {
+        ".": "./unicss.js",
+        "./package.json": "./package.json",
+        "./theme": "./theme.js",
+        "./theme.js": "./theme.js"
+    },
+    "files": [
+        "unicss.js",
+        "theme.js",
+        "README.md"
+    ],
+    "keywords": [
+        "unicss",
+        "css-in-js"
+    ]
+}
