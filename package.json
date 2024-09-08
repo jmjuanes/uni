@@ -1,36 +1,23 @@
 {
-    "name": "unicss",
-    "version": "0.2.0",
+    "name": "uni",
+    "version": "0.0.0",
     "description": "The universal CSS-In-JS microlibrary",
+    "private": true,
     "author": "Josemi Juanes <hello@josemi.xyz>",
     "license": "MIT",
-    "repository": "https://github.com/jmjuanes/unicss",
-    "bugs": "https://github.com/jmjuanes/unicss/issues",
+    "repository": "https://github.com/jmjuanes/uni",
+    "bugs": "https://github.com/jmjuanes/uni/issues",
     "type": "module",
-    "main": "index.js",
-    "exports": {
-        ".": "./index.js",
-        "./theme": "./theme.js"
-    },
     "scripts": {
         "test": "jest"
     },
-    "files": [
-        "index.js",
-        "theme.js",
-        "README.md"
-    ],
     "devDependencies": {
-        "@babel/core": "^7.18.13",
-        "@babel/preset-env": "^7.18.10",
-        "babel-jest": "^29.0.1",
-        "jest": "^29.0.1",
-        "jest-environment-jsdom": "^29.0.1"
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0"
     },
-    "keywords": [
-        "unicss",
-        "css-in-js"
-    ],
     "babel": {
         "presets": [
             "@babel/preset-env"
